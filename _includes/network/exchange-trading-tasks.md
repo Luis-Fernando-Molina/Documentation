@@ -86,7 +86,7 @@ You may also add exchange trading tasks node in bulk for all exchanges that may 
 
 <!--------------------------------------------- CONFIGURING starts -->
 
-Select *Run All Market Trading Tasks* or *Stop All Market Trading Tasks* on the menu to start and stop all tasks under this node.
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- CONFIGURING ends -->
 
@@ -98,7 +98,7 @@ Select *Run All Market Trading Tasks* or *Stop All Market Trading Tasks* on the 
 
 <!--------------------------------------------- STARTING starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Select *Run All Market Trading Tasks* or *Stop All Market Trading Tasks* on the menu to start and stop all tasks under this node.
 
 <!--------------------------------------------- STARTING ends -->
 

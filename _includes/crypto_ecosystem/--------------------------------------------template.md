@@ -1,7 +1,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
 {% assign title = "XXXXXXXXXXXXXXXX" %}
-{% assign definition = site.data.charting_space.XXXXXXXXXXXXXXXX %}
+{% assign definition = site.data.concepts.XXXXXXXXXXXXXXXX %}
 {% assign preposition = "XXXXXXXXXXXXXXXX" %}
 {% assign plural = "s" %}
 
@@ -57,18 +57,6 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 {% endif %}
 
-{% if include.charts != "" %}
-
-{{include.charts}} Controlling the {{title}} from the Charts
-
-<!--------------------------------------------- CHARTS starts -->
-
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
-<!--------------------------------------------- CHARTS ends -->
-
-{% endif %}
-
 {% if include.more == "yes" and include.content != "more" and include.heading != "more" %}
 <details class='detailsCollapsible'><summary class='nobr'>Click to learn more about {{ title | downcase }}{{plural}}
 </summary>
@@ -80,7 +68,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <!--------------------------------------------- ADDING starts -->
 
-To add the {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. 
+To add the {{ title | downcase }} node, select *Add Missing Items* on the parent node menu. 
 
 <!--------------------------------------------- ADDING ends -->
 
@@ -88,7 +76,7 @@ To add the {{ title | downcase }} node, select *Add {{ title }}* on the parent n
 
 {% if include.configuring != "" %}
 
-{{include.configuring}} Configuring the {{title}}
+{{include.configuring}} Configuring {{preposition}} Asset Node
 
 <!--------------------------------------------- CONFIGURING starts -->
 
@@ -99,6 +87,18 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
 <!--------------------------------------------- CONFIGURING ends -->
+
+{% endif %}
+
+{% if include.starting != "" %}
+
+{{include.starting}} Starting {{preposition}} {{title}}
+
+<!--------------------------------------------- STARTING starts -->
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+<!--------------------------------------------- STARTING ends -->
 
 {% endif %}
 
