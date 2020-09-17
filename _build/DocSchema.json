@@ -164,11 +164,11 @@
     },
     {
         "type": "Network",
-        "definition": "The network hierarchy contains definitions regarding the physical location in which certain nodes live or function. For instance, a certain process my run and store data in your local machine or some other machine in the network."
+        "definition": "The network hierarchy provides the control functions for running data-mining and trading operations. Because operations may be run either on a single machine or distributed over a network of machines, it also contains definitions regarding the physical location in which nodes live or function."
     },
     {
         "type": "Network Node",
-        "definition": "A network node represents a machine running Superalgos, on which processes run or data is stored."
+        "definition": "A network node represents a machine running Superalgos, on which processes run and data is stored."
     },
     {
         "type": "Task Manager",
@@ -255,7 +255,8 @@
         "definition": "Periods counts the number of candles that have been evaluated, in the context of the parent node."
     },
     {
-        "type": "User Defined Counter"
+        "type": "User Defined Counter",
+        "definition": ""
     },
     {
         "type": "Episode Statistics",
@@ -574,7 +575,8 @@
         "definition": "The candle structure of nodes stores the properties that make up each candle in the episode, including open and close datetime, and the rates for open, min, max, and close."
     },
     {
-        "type": "Cycle"
+        "type": "Cycle",
+        "definition": "The trading bot performs its duties in regards to exchange orders and accounts in two consecutive cycles for each candle."
     },
     {
         "type": "Exchange Orders",
@@ -634,7 +636,7 @@
     },
     {
         "type": "Time Range",
-        "definition": "The time range is the specific period between a starting and an ending date on which the session runs."
+        "definition": "The time range parameter determines the period of time on which the trading session is run."
     },
     {
         "type": "Time Frame",
@@ -673,7 +675,8 @@
         "definition": "A forward testing session is a trading mode by which the trading bot instance performs live trading with a user-defined fraction of the available capital."
     },
     {
-        "type": "Key Reference"
+        "type": "Key Reference",
+        "definition": "The key reference is a reference to an exchange account key as defined in a specific user account, in a specific exchange, on the Crypto Ecosystem hierarchy."
     },
     {
         "type": "Live Trading Session",
@@ -727,10 +730,12 @@
         "definition": "The execution finished event is the event that processes trigger once they have finished an execution cycle. The event is broadcasted to whoever wants to listen, so that other bots may know when the process has finished its execution cycle."
     },
     {
-        "type": "Output Dataset Folder"
+        "type": "Output Dataset Folder",
+        "definition": "An output dataset folder is an organizational device used to create arrangements of output datasets, particularly useful when the bot has many products."
     },
     {
-        "type": "Product Definition Folder"
+        "type": "Product Definition Folder",
+        "definition": "A product definition folder is an organizational device used to create arrangements of product definitions, particularly useful when the bot has many products."
     },
     {
         "type": "Product Definition",
@@ -1041,29 +1046,35 @@
     },
     {
         "type": "Data Storage",
-        "definition": "The data storage node controls aspects of what data is to be stored in the corresponding network node."
+        "definition": "The data storage node holds the definitions as to what data is stored in the corresponding network node."
     },
     {
-        "type": "Data Mine Tasks"
+        "type": "Data Mine Tasks",
+        "definition": "The data mine tasks node is an organizational device that groups tasks corresponding to the referenced data mine."
     },
     {
-        "type": "Trading Mine Tasks"
+        "type": "Trading Mine Tasks",
+        "definition": "The trading mine tasks node is an organizational device that groups tasks corresponding to the referenced trading mine."
     },
     {
-        "type": "Market Data Tasks"
+        "type": "Market Data Tasks",
+        "definition": "A market data tasks node groups data mining tasks operating in a specific market."
     },
     {
-        "type": "Market Trading Tasks"
+        "type": "Market Trading Tasks",
+        "definition": "A market trading tasks node groups trading tasks operating in a specific market."
     },
     {
-        "type": "Exchange Data Tasks"
+        "type": "Exchange Data Tasks",
+        "definition": "The exchange data tasks node organizes data mining tasks by exchange. That is, each exchange installed in the system has an exchange data tasks node grouping all market data tasks corresponding to the said exchange."
     },
     {
-        "type": "Exchange Trading Tasks"
+        "type": "Exchange Trading Tasks",
+        "definition": "The exchange trading tasks node organizes trading tasks by exchange. That is, each exchange installed in the system has an exchange trading tasks node grouping all market trading tasks corresponding to the said exchange."
     },
     {
         "type": "Data Mining",
-        "definition": "Data mining is the activity of processing data. You need to process data to feed charts, and so that the trading bot may make decisions based on quality information. In the context of the network hierarchy, the data-mining node groups the task managers handling sensor and indicator bots instances."
+        "definition": "Data mining is the activity of processing data. You need to process data to feed charts, and so that your trading systems may make decisions based on quality information."
     },
     {
         "type": "Testing Environment",
@@ -1075,42 +1086,51 @@
     },
     {
         "type": "Exchange Data Products",
-        "definition": "The exchange data products node organizes session independent data by exchange. That is, each exchange installed in the system has an exchange data products node grouping all single market data nodes corresponding to the said exchange."
+        "definition": "The exchange data products node organizes data mines data by exchange. That is, each exchange installed in the system has an exchange data products node grouping all market data products nodes corresponding to the said exchange."
     },
     {
-        "type": "Data Mines Data"
+        "type": "Data Mines Data",
+        "definition": "Session independent data refers to data generated by sensors and indicators, not related to trading sessions."
     },
     {
-        "type": "Exchange Trading Products"
+        "type": "Exchange Trading Products",
+        "definition": "The exchange trading products node organizes trading mines data by exchange. That is, each exchange installed in the system has an exchange trading products node grouping all session references corresponding to the said exchange."
     },
     {
-        "type": "Trading Mines Data"
+        "type": "Trading Mines Data",
+        "definition": "Session-based data refers to data that is generated as a consequence of running a trading session, that is, data the trading bot instance generates while running backtesting, paper trading, forward testing, or live trading sessions."
     },
     {
         "type": "Session Reference",
         "definition": "A session reference establishes which session is the one which shall store data in the current location."
     },
     {
-        "type": "Market Data Products"
+        "type": "Market Data Products",
+        "definition": "A market data products node represents the group of data products generated in a specific market."
     },
     {
-        "type": "Market Trading Products"
+        "type": "Market Trading Products",
+        "definition": "A market trading products node features the group of data products generated by the referenced session in a specific market."
     },
     {
         "type": "Data Product",
-        "definition": "A data product represents the collection of datasets generated by the instance of a bot as defined in the corresponding data mine."
+        "definition": "A data product represents the collection of datasets generated by the instance of a bot as defined in the corresponding data mine or trading mine."
     },
     {
-        "type": "Data Mine Products"
+        "type": "Data Mine Products",
+        "definition": "Data mine products are references established with data mines to facilitate establishing data product references with multiple products in the given data mine."
     },
     {
-        "type": "Trading Mine Products"
+        "type": "Trading Mine Products",
+        "definition": "Trading mine products are references established with trading mines to facilitate establishing data product references with multiple products in the given mine."
     },
     {
-        "type": "Bot Products"
+        "type": "Bot Products",
+        "definition": "A bot products node is an organizational device used to arrange data products corresponding to a specific bot."
     },
     {
-        "type": "Data Product Folder"
+        "type": "Data Product Folder",
+        "definition": "A data product folder node is an organizational device used to map the arrangement of product definition folders as may exist in the bot definition of the corresponding data or trading mine."
     },
     {
         "type": "Tutorial"
@@ -1122,12 +1142,15 @@
         "type": "Tutorial Step"
     },
     {
-        "type": "Bot Data Dependencies"
+        "type": "Bot Data Dependencies",
+        "definition": "A bot data dependencies node is an organizational device used to arrange data dependencies corresponding to a specific bot."
     },
     {
-        "type": "Data Mine Data Dependencies"
+        "type": "Data Mine Data Dependencies",
+        "definition": "Data mine data dependencies are references established with entire data mines to facilitate establishing data dependencies with multiple datasets in the given data mine."
     },
     {
-        "type": "Data Dependency Folder"
+        "type": "Data Dependency Folder",
+        "definition": "A data dependency folder node is an organizational device used to map the arrangement of product definition folders of a given bot."
     }
 ]
