@@ -1,0 +1,1133 @@
+[
+    {
+        "type": "Plotter Module",
+        "definition": "A plotter module is a device within a plotter that contains the definitions to create the visualization for a product definition."
+    },
+    {
+        "type": "Nodes Values"
+    },
+    {
+        "type": "Nodes Highlights"
+    },
+    {
+        "type": "Nodes Errors"
+    },
+    {
+        "type": "Nodes Warnings"
+    },
+    {
+        "type": "Nodes Infos"
+    },
+    {
+        "type": "Nodes Status"
+    },
+    {
+        "type": "Nodes Progress"
+    },
+    {
+        "type": "Nodes Running"
+    },
+    {
+        "type": "Nodes Announcements"
+    },
+    {
+        "type": "Record Values"
+    },
+    {
+        "type": "Shapes",
+        "definition": "The shapes node contains definitions of polygons and styles to be rendered on a per-period basis over the charts."
+    },
+    {
+        "type": "Plotter Panel",
+        "definition": "A plotter panel usually shows numerical representations of data over the charts on a small window or panel. The plotter panel node features definitions to make that possible."
+    },
+    {
+        "type": "Panel Data",
+        "definition": "A panel data node represents a data field to be plotted on the plotter panel."
+    },
+    {
+        "type": "Data Formula",
+        "definition": "A data formula is a device used to assign a value to the panel data, usually in the form of the name of the corresponding record property."
+    },
+    {
+        "type": "Javascript Code",
+        "definition": "The JavaScript code node may hold any snippet of valid JavaScript."
+    },
+    {
+        "type": "Chart Points",
+        "definition": "A chart points groups definitions of coordinate points used to define polygons."
+    },
+    {
+        "type": "Point",
+        "definition": "A point is a definition of an [x,y] coordinate. The value [x] usually represents a datetime. The value [y] may refer to a price or some other concept."
+    },
+    {
+        "type": "Point Formula",
+        "definition": "A point formula is a node used to input the [x,y] coordinates of a point."
+    },
+    {
+        "type": "Image",
+        "definition": "The image node allows overlaying an image over the charts, controlling its position, size, and when it shall be rendered."
+    },
+    {
+        "type": "Image Condition",
+        "definition": "An image condition is a rule that allows establishing when an image shall be rendered and when not."
+    },
+    {
+        "type": "Image Position",
+        "definition": "The image position node is a reference to a point defined in the chart points, and serves to determine the position in which the image shall be placed."
+    },
+    {
+        "type": "Text",
+        "definition": "The text node allows overlaying text on the charts, controlling its position, size, appearance, and when it shall be rendered."
+    },
+    {
+        "type": "Text Style",
+        "definition": "The text style is a definition of color, opacity, and font size that determines the appearance of the text to be rendered over the charts."
+    },
+    {
+        "type": "Text Condition",
+        "definition": "A text condition is a rule that allows establishing when text shall be rendered and when not."
+    },
+    {
+        "type": "Text Position",
+        "definition": "The text position node is a reference to a point defined in the chart points, and serves to determine the position in which text shall be rendered."
+    },
+    {
+        "type": "Text Formula",
+        "definition": "The text formula determines the content that shall be rendered over the charts."
+    },
+    {
+        "type": "Polygon",
+        "definition": "A polygon features definitions that makeup shapes and their styles."
+    },
+    {
+        "type": "Polygon Condition",
+        "definition": "A polygon condition is a rule that allows establishing when a polygon shall be rendered and when not."
+    },
+    {
+        "type": "Polygon Body",
+        "definition": "A polygon body is the fill of a shape made out of at least three vertices."
+    },
+    {
+        "type": "Polygon Border",
+        "definition": "A polygon border is a shape defined by at least two vertices used to draw lines or to apply a style to the stroke of a closed shape."
+    },
+    {
+        "type": "Style Condition",
+        "definition": "A style condition is a rule that allows applying an alternative style in cases where the rule validates true."
+    },
+    {
+        "type": "Style",
+        "definition": "A style is a definition of color and opacity in case of a polygon body, and color, opacity and line thickness in case of polygon borders."
+    },
+    {
+        "type": "Polygon Vertex",
+        "definition": "A polygon vertex is a reference to a point defined in the chart points, constituting a specific coordinate to be used as a vertex of a shape."
+    },
+    {
+        "type": "Workspace"
+    },
+    {
+        "type": "Situation",
+        "definition": "A situation refers to a specific state of the market in which a certain event should take place, as defined by any number of conditions."
+    },
+    {
+        "type": "Condition",
+        "definition": "Conditions are rules within a situation. When all conditions under a situation validate true, then the situation gets validated as well, and the associated event is triggered."
+    },
+    {
+        "type": "Super Scripts",
+        "definition": "The super scripts hierarchy holds definitions of scripts used to automate certain aspects of the administration and maintenance of the workspace, such as installing and deleting markets."
+    },
+    {
+        "type": "Scripts Library",
+        "definition": "A script library is a collection of related scripts."
+    },
+    {
+        "type": "Master Script",
+        "definition": "A master script contains the definitions of any number of template scripts along with the master JavaScript code providing the logic to implement them."
+    },
+    {
+        "type": "Template Script",
+        "definition": "The template script node holds the definitions concerned with the scope of a particular structure of nodes."
+    },
+    {
+        "type": "Template Structure",
+        "definition": "The template structure holds the structure of nodes with all its configurations and properties, exactly as it should be implemented."
+    },
+    {
+        "type": "Template Target"
+    },
+    {
+        "type": "Super Action"
+    },
+    {
+        "type": "Network",
+        "definition": "The network hierarchy contains definitions regarding the physical location in which certain nodes live or function. For instance, a certain process my run and store data in your local machine or some other machine in the network."
+    },
+    {
+        "type": "Network Node",
+        "definition": "A network node represents a machine running Superalgos, on which processes run or data is stored."
+    },
+    {
+        "type": "Task Manager",
+        "definition": "A task manager is a device used to organize and control any number of tasks, which, in turn, control bot instances. You use a task manager to start or stop several tasks at the same time."
+    },
+    {
+        "type": "Task",
+        "definition": "A task is the device used to control bot instances, that is, to start and stop bots, including sensors, indicators and the trading bot."
+    },
+    {
+        "type": "Trading Bot Instance",
+        "definition": "A trading bot instance is a reference to the trading bot as defined in the Masters data mine. The instance of the bot runs the defined processes and generates the defined data products."
+    },
+    {
+        "type": "Sensor Process Instance",
+        "definition": "A sensor process instance is a reference to the process definition of a sensor bot, as defined in a data mine."
+    },
+    {
+        "type": "Indicator Process Instance",
+        "definition": "An indicator process instance is a reference to the process definition of an indicator bot, as defined in a data mine."
+    },
+    {
+        "type": "Trading Process Instance",
+        "definition": "A trading process instance is a reference to the process definition of the trading bot, as defined in the Masters data mine."
+    },
+    {
+        "type": "Backtesting Session",
+        "definition": "A backtesting session is a trading mode by which the trading bot instance reads historic market data in a user-defined datetime range, applies the rules defined in the associated trading system, and generates a trading simulation."
+    },
+    {
+        "type": "Trading Engine",
+        "definition": "The trading engine hierarchy is the data structure used by the trading bot to keep runtime information highly accessible and exposed to others."
+    },
+    {
+        "type": "Dynamic Indicators",
+        "definition": ""
+    },
+    {
+        "type": "Indicator Function",
+        "definition": ""
+    },
+    {
+        "type": "Episode",
+        "definition": "Episode is the object that handles the information corresponding to the whole run of the trading bot&mdash;beginning to end&mdash;between the specified initial datetime and final datetime, in the time range parameter of the trading session."
+    },
+    {
+        "type": "Episode Counters",
+        "definition": "The episode counters node features counters of instances of objects that come to exist during the duration of the episode."
+    },
+    {
+        "type": "Position Counters",
+        "definition": "The position counters node features counters of instances of objects that come to exist during the duration of the position."
+    },
+    {
+        "type": "Strategy Counters",
+        "definition": "The strategy counters node features counters of instances of objects that come to exist while the strategy is open."
+    },
+    {
+        "type": "Order Counters",
+        "definition": "The order counters node features counters of instances of objects that come to exist while the order is open."
+    },
+    {
+        "type": "Positions",
+        "definition": "Positions counts the number of times positions have been opened, in the context of the parent node."
+    },
+    {
+        "type": "Strategies",
+        "definition": "Strategies counts the number of times strategies have been triggered-on, in the context of the parent node."
+    },
+    {
+        "type": "Orders",
+        "definition": "Orders counts the number of times orders have been placed, in the context of the parent node."
+    },
+    {
+        "type": "Fails",
+        "definition": "Fails counts the number of positions that closed with a negative profit loss, in the context of the parent node."
+    },
+    {
+        "type": "Hits",
+        "definition": "Hits counts the number of positions that closed with a positive profit loss, in the context of the parent node."
+    },
+    {
+        "type": "Periods",
+        "definition": "Periods counts the number of candles that have been evaluated, in the context of the parent node."
+    },
+    {
+        "type": "User Defined Counter"
+    },
+    {
+        "type": "Episode Statistics",
+        "definition": "Episode statistics keeps track of several metrics in the context of the episode."
+    },
+    {
+        "type": "Stop Loss",
+        "definition": "Stop loss is the current stop loss target, as defined in the manage stage of the corresponding strategy."
+    },
+    {
+        "type": "Take Profit",
+        "definition": "Take profit is the current take profit target, as defined in the manage stage of the corresponding strategy."
+    },
+    {
+        "type": "Stop Loss Phase",
+        "definition": "Stop loss phase is the numeric value of the phase that is currently open, and thus, defining the value of the stop loss."
+    },
+    {
+        "type": "Take Profit Phase",
+        "definition": "Take profit phase is the numeric value of the phase that is currently open, and thus, defining the value of the take profit."
+    },
+    {
+        "type": "Take Profit Position",
+        "definition": "Take profit position indicates if the take profit target is above or below the position rate."
+    },
+    {
+        "type": "Stop Loss Position",
+        "definition": "Stop Loss position indicates if the stop loss target is above or below the position rate."
+    },
+    {
+        "type": "Position Statistics",
+        "definition": "Position statistics keeps track of several metrics in the context of the position."
+    },
+    {
+        "type": "Stage Base Asset",
+        "definition": "The stage base asset node keeps track of the evolution of variables related to the base asset throughout the stage."
+    },
+    {
+        "type": "Stage Quoted Asset",
+        "definition": "The stage quoted asset node keeps track of the evolution of variables related to the quoted asset throughout the stage."
+    },
+    {
+        "type": "Episode Base Asset",
+        "definition": "The episode base asset node keeps track of the evolution of variables and metrics denominated in the base asset, throughout the episode."
+    },
+    {
+        "type": "Episode Quoted Asset",
+        "definition": "The episode quoted asset node keeps track of the evolution of variables and metrics denominated in the quoted asset, throughout the episode."
+    },
+    {
+        "type": "Position Base Asset",
+        "definition": "The position base asset node keeps track of the evolution of variables related to the base asset throughout the position."
+    },
+    {
+        "type": "Position Quoted Asset",
+        "definition": "The position quoted asset node keeps track of the evolution of variables related to the quoted asset throughout the position."
+    },
+    {
+        "type": "Order Statistics",
+        "definition": "Order statistics keeps track of several metrics in the context of the order."
+    },
+    {
+        "type": "Order Base Asset",
+        "definition": "The order base asset node keeps track of the evolution of certain properties of orders, denominated in the base asset."
+    },
+    {
+        "type": "Order Quoted Asset",
+        "definition": "The order quoted asset node keeps track of the evolution of certain properties of orders, denominated in the quoted asset."
+    },
+    {
+        "type": "User Defined Statistic",
+        "definition": "A user defined statistic allows users to create custom metrics by defining the corresponding calculation in a formula, in the context of the parent node."
+    },
+    {
+        "type": "Profit Loss",
+        "definition": "Profit loss is the difference between the balance at the end and the balance at the beginning of a certain period, given by the context."
+    },
+    {
+        "type": "Hit Ratio",
+        "definition": "Hit ratio is the percentage of positions that closed with a positive profit loss, in the context of the parent node."
+    },
+    {
+        "type": "Days",
+        "definition": "Days counts the number of days through which the trading bot has cycled since the object represented by the parent node was open."
+    },
+    {
+        "type": "Size Filled",
+        "definition": "Size filled is the amount of the order that has been filled at the exchange."
+    },
+    {
+        "type": "Percentage Filled",
+        "definition": "Percentage filled represents the portion of the order that has been filled, expressed as a percentage."
+    },
+    {
+        "type": "Actual Rate",
+        "definition": "Actual rate is the number reported by the exchange as the rate at which an order was filled."
+    },
+    {
+        "type": "Fees Paid",
+        "definition": "Fees paid is the amount paid in fees."
+    },
+    {
+        "type": "ROI"
+    },
+    {
+        "type": "Annualized Rate Of Return",
+        "definition": "Annualized rate of return is the equivalent ROI scaled to one year."
+    },
+    {
+        "type": "Hit Fail",
+        "definition": "Hit fail states whether a transaction is successful or not, hit meaning it is successful and fail meaning it is not."
+    },
+    {
+        "type": "Current",
+        "definition": "The current object refers to the context in which instances of several other objects exist&mdash;like episode, strategy, position, strategy stages, and so on&mdash;in particular, the instances that are open at the time of evaluation, hence the adjective current."
+    },
+    {
+        "type": "Balance",
+        "definition": "Balance is the running balance, that is, the amount of the asset that exists at any point in time."
+    },
+    {
+        "type": "Begin Balance",
+        "definition": "Begin balance is the balance at the datetime of the begin property of the parent node or concept."
+    },
+    {
+        "type": "End Balance",
+        "definition": "End balance is the balance at the datetime of the end property of the parent node or concept."
+    },
+    {
+        "type": "Distance To Event",
+        "definition": "Distance to event features counters indicating how many periods (candles) have passed since the last occurrence of certain events, in the context of the episode."
+    },
+    {
+        "type": "Trigger On",
+        "definition": "Counts the periods since the last time a strategy was triggered on."
+    },
+    {
+        "type": "Trigger Off",
+        "definition": "Counts the periods since the last time a strategy was triggered off."
+    },
+    {
+        "type": "Take Position",
+        "definition": "Counts the periods since the last time a position was taken."
+    },
+    {
+        "type": "Close Position",
+        "definition": "Counts the periods since the last time a position was closed."
+    },
+    {
+        "type": "Next Phase",
+        "definition": "Counts the periods since the last time a next phase event was triggered."
+    },
+    {
+        "type": "Move To Phase",
+        "definition": "Counts the periods since the last time a move to phase event was triggered."
+    },
+    {
+        "type": "Create Order",
+        "definition": "Counts the periods since the last time an order was created."
+    },
+    {
+        "type": "Cancel Order",
+        "definition": "Counts the periods since the last time an order was canceled."
+    },
+    {
+        "type": "Close Order",
+        "definition": "Counts the periods since the last time an order was closed."
+    },
+    {
+        "type": "Strategy Trigger Stage",
+        "definition": "Strategy trigger stage is the section of the data structure that keeps track of information specific to the scope of the trigger stage during the period the stage is open."
+    },
+    {
+        "type": "Strategy Manage Stage",
+        "definition": "Strategy manage stage is the section of the data structure that keeps track of information specific to the scope of the manage stage during the period the stage is open."
+    },
+    {
+        "type": "Strategy Open Stage",
+        "definition": "Strategy open stage is the section of the data structure that keeps track of information specific to the scope of the open stage during the period the stage is open."
+    },
+    {
+        "type": "Strategy Close Stage",
+        "definition": "Strategy close stage is the section of the data structure that keeps track of information specific to the scope of the close stage during the period the stage is open."
+    },
+    {
+        "type": "Strategy",
+        "definition": "The strategy section of the trading engine keeps track of information relating to the trading strategies that are triggered-on, during the time they remain open."
+    },
+    {
+        "type": "Strategy Name",
+        "definition": "Strategy name features the name of the strategy that is currently open."
+    },
+    {
+        "type": "Index",
+        "definition": "Index is the position of the parent object in the corresponding data collection, as determined by the context."
+    },
+    {
+        "type": "Status",
+        "definition": "Status refers to the state of the object represented by the parent node at the moment of evaluation."
+    },
+    {
+        "type": "Situation Name",
+        "definition": "Situation name features the name of the situation that triggered a certain event, which is dependent on the context."
+    },
+    {
+        "type": "Algorithm Name",
+        "definition": "Algorithm name is the name of the execution algorithm that opened the order, as specified in the trading system."
+    },
+    {
+        "type": "Order Name",
+        "definition": "Order name is the name of the order as specified in the trading system."
+    },
+    {
+        "type": "Serial Number",
+        "definition": "Serial number is a sequential number assigned to the object represented by the parent node at the moment it is opened."
+    },
+    {
+        "type": "Identifier",
+        "definition": "Identifier is a unique alphanumeric string by which the object represented by the parent node may be unequivocally identified."
+    },
+    {
+        "type": "Exchange Id",
+        "definition": "Exchange ID is a unique identifier the exchange assigns to the order, so that it may be unequivocally identified."
+    },
+    {
+        "type": "Lock",
+        "definition": "Lock is an internal mechanism that blocks the data structure of the order at the trading engine when the definition of the order at the trading system disallows spawning multiple orders."
+    },
+    {
+        "type": "Begin",
+        "definition": "Begin is the datetime at the moment the object represented by the parent node began to exist."
+    },
+    {
+        "type": "End",
+        "definition": "End is the datetime on which the object represented by the parent node ceased to exist. In case the object has not been closed yet, it is the datetime at the moment of evaluation."
+    },
+    {
+        "type": "Open",
+        "definition": "Open is the rate at the datetime of the begin property, as provided by the exchange. That is, the rate at the open of the candle."
+    },
+    {
+        "type": "Close",
+        "definition": "Close is the rate at the datetime of the end property, as provided by the exchange. That is, the rate at the close of the candle."
+    },
+    {
+        "type": "Min",
+        "definition": "Min is the minimum rate registered by the exchange during the period between the datetimes of the begin and end properties, as provided by the exchange."
+    },
+    {
+        "type": "Max",
+        "definition": "Max is the maximum rate registered by the exchange during the period between the datetimes of the begin and end properties, as provided by the exchange."
+    },
+    {
+        "type": "Begin Rate",
+        "definition": "Begin rate is the close rate of the candle corresponding to the datetime of the begin property."
+    },
+    {
+        "type": "End Rate",
+        "definition": "End rate is the close rate of the candle corresponding to the datetime of the end property."
+    },
+    {
+        "type": "Position",
+        "definition": "Position is the section of the data structure that keeps track of information within the scope of each position, and during the time a position is open."
+    },
+    {
+        "type": "Rate",
+        "definition": "Rate is the rate at which the order is placed."
+    },
+    {
+        "type": "Entry Target Rate",
+        "definition": "Entry target rate is the target rate set on the initial targets definition, in the open stage of the strategy."
+    },
+    {
+        "type": "Exit Target Rate",
+        "definition": "Exit target rate is the target rate set on the initial targets definition, in the close stage of the strategy."
+    },
+    {
+        "type": "Stage Defined In"
+    },
+    {
+        "type": "Size",
+        "definition": "Size is the size set for the order through a combination of formulas and configurations defined in the trading system, and is the value passed on to the exchange as the size of the order."
+    },
+    {
+        "type": "Entry Target Size",
+        "definition": "Entry target size is the target size set on the initial targets definition, in the open stage of the strategy."
+    },
+    {
+        "type": "Exit Target Size",
+        "definition": "Exit target size is the target size set on the initial targets definition, in the close stage of the strategy."
+    },
+    {
+        "type": "Size Placed",
+        "definition": "Size placed is the size of the order placed at the exchange."
+    },
+    {
+        "type": "Target Size",
+        "definition": "Target size is the target set on the initial targets definition which, in the context of a strategy stage, acts as a limit."
+    },
+    {
+        "type": "Exit Type",
+        "definition": "Exit type refers to the reason why the object is closed."
+    },
+    {
+        "type": "Process Date"
+    },
+    {
+        "type": "Head Of The Market"
+    },
+    {
+        "type": "Last",
+        "definition": "The last object stores instances of position and strategy objects, in particular the instances that were last open at the time of evaluation, hence the adjective last."
+    },
+    {
+        "type": "Candle",
+        "definition": "The candle structure of nodes stores the properties that make up each candle in the episode, including open and close datetime, and the rates for open, min, max, and close."
+    },
+    {
+        "type": "Cycle"
+    },
+    {
+        "type": "Exchange Orders",
+        "definition": "Exchange orders is the section of the data structure that keeps track of orders of all types."
+    },
+    {
+        "type": "Market Buy Orders",
+        "definition": "Market buy orders is the section of the data structure that keeps track of this specific type of order."
+    },
+    {
+        "type": "Market Order",
+        "definition": "Market order is the section of the data structure that keeps track of the properties of a specific market order, as defined in the trading system."
+    },
+    {
+        "type": "Market Sell Orders",
+        "definition": "Market sell orders is the section of the data structure that keeps track of this specific type of order."
+    },
+    {
+        "type": "Limit Buy Orders",
+        "definition": "Limit buy orders is the section of the data structure that keeps track of this specific type of order."
+    },
+    {
+        "type": "Limit Sell Orders",
+        "definition": "Limit sell orders is the section of the data structure that keeps track of this specific type of order."
+    },
+    {
+        "type": "Limit Order",
+        "definition": "Limit order is the section of the data structure that keeps track of the properties of a specific limit order, as defined in the trading system."
+    },
+    {
+        "type": "Parameters",
+        "definition": "Parameters are properties of trading sessions, defined by users, to determine their behavior and improve the quality of simulations."
+    },
+    {
+        "type": "Trading System Reference",
+        "definition": "A trading engine reference determines which trading system shall be evaluated by the trading bot to run the trading session."
+    },
+    {
+        "type": "Trading Engine Reference",
+        "definition": "A trading engine reference determines which trading engine the trading bot shall use to structure the data it processes while running the trading session."
+    },
+    {
+        "type": "Session Base Asset",
+        "definition": "The base asset is the asset whose price is determined by the market. It is usually the first asset in the pair, as listed by the exchange."
+    },
+    {
+        "type": "Session Quoted Asset",
+        "definition": "The quoted asset is the asset on which the price of the base asset is denominated in the market. It is usually the second asset in the pair, as listed by the exchange."
+    },
+    {
+        "type": "Market Base Asset",
+        "definition": "The market base asset is the asset in the pair used to provide a quote&mdash;a price&mdash;for the quoted asset, as listed at the exchange."
+    },
+    {
+        "type": "Market Quoted Asset",
+        "definition": "The market quoted asset is the asset in the pair for which a quote is given, denominated in the base asset, as listed at the exchange."
+    },
+    {
+        "type": "Time Range",
+        "definition": "The time range is the specific period between a starting and an ending date on which the session runs."
+    },
+    {
+        "type": "Time Frame",
+        "definition": "The time frame determines the collection of candles to be analyzed during a backtesting session, and the frequency with which the trading bot runs on paper trading, forward testing, and live trading sessions."
+    },
+    {
+        "type": "Slippage",
+        "definition": "The slippage is an assumption on the difference between the simulated rate and the actual fill rate of an order, most relevant in the context of backtesting and paper-trading sessions. The parameter is a tool to make simulations more realistic."
+    },
+    {
+        "type": "Fee Structure",
+        "definition": "The fee structure is a parameter fundamental to the calculation of fees, both in testing and live trading sessions."
+    },
+    {
+        "type": "Snapshots",
+        "definition": "Snapshots are CSV files output by the trading bot listing every trade in a backtesting session. The snapshots parameter determines whether snapshots shall be produced, and how."
+    },
+    {
+        "type": "Heartbeats",
+        "definition": "During a trading session, the backend communicates with the front end via heartbeats to inform the frontend about the status of the session. The parameter controls what information is made available to the user through the frontend."
+    },
+    {
+        "type": "User Defined Parameters",
+        "definition": "Users may define parameters to be used within the trading system during the trading session."
+    },
+    {
+        "type": "Time Frames Filter",
+        "definition": "The time frame filters node allows control over which time frames are to be calculated by each indicator bot instance running on the data mining operation."
+    },
+    {
+        "type": "Paper Trading Session",
+        "definition": "A paper trading session is a trading mode by which the trading bot instance reads a live market data feed, applies the rules defined in the associated trading system, and generates a trading simulation."
+    },
+    {
+        "type": "Forward Testing Session",
+        "definition": "A forward testing session is a trading mode by which the trading bot instance performs live trading with a user-defined fraction of the available capital."
+    },
+    {
+        "type": "Key Reference"
+    },
+    {
+        "type": "Live Trading Session",
+        "definition": "A live trading session is a trading mode by which the trading bot instance reads a live market data feed, applies the rules as defined in the associated trading system, places the corresponding orders at the associated exchange, and stores the defined data products."
+    },
+    {
+        "type": "Sensor Bot Instance",
+        "definition": "A sensor bot instance is a reference to a sensor bot as defined in a data mine. The instance of the bot runs the defined processes and generates the defined data products."
+    },
+    {
+        "type": "Indicator Bot Instance",
+        "definition": "An indicator bot instance is a reference to an indicator bot as defined in a data mine. The instance of the bot runs the defined processes and generates the defined data products."
+    },
+    {
+        "type": "Data Mine",
+        "definition": "A data mine is a hierarchy that contains definitions of bots, including the trading bot, sensors, indicators, and even plotters. These definitions make up the actual programs of such bots&mdash;the source code."
+    },
+    {
+        "type": "Trading Mine"
+    },
+    {
+        "type": "Sensor Bot",
+        "definition": "A sensor bot is an algorithm that extracts raw data from external sources (i.e.: exchanges, Twitter, etc.) and stores it in a dataset that other bots may consume."
+    },
+    {
+        "type": "Process Definition",
+        "definition": "The process definition node groups all definitions required for a process to function. The Multi-Period-Market Process deals with time frames of one hour and above. The Multi-Period-Daily Process deals with time frames of 45 minutes and below."
+    },
+    {
+        "type": "Process Output",
+        "definition": "The process output groups the definitions of which datasets are impacted by the process, that is, which datasets the process builds or takes a part in building."
+    },
+    {
+        "type": "Process Dependencies",
+        "definition": "Process dependencies are references to various data structures on which the process depends to function."
+    },
+    {
+        "type": "Status Dependency",
+        "definition": "Status dependencies are references to a status report that define which process the process establishing the reference depends on."
+    },
+    {
+        "type": "Status Report",
+        "definition": "Status reports serve as temporal annotations that bots read every time they run to know what was done in the previous cycle and what the state of affairs is at present. Status reports are dynamic, and they change constantly, with updates after every cycle of the associated process."
+    },
+    {
+        "type": "Execution Started Event",
+        "definition": "The execution started event is the event that triggers the execution of a process. It usually references the execution finished event of another process on which the process depends on."
+    },
+    {
+        "type": "Execution Finished Event",
+        "definition": "The execution finished event is the event that processes trigger once they have finished an execution cycle. The event is broadcasted to whoever wants to listen, so that other bots may know when the process has finished its execution cycle."
+    },
+    {
+        "type": "Output Dataset Folder"
+    },
+    {
+        "type": "Product Definition Folder"
+    },
+    {
+        "type": "Product Definition",
+        "definition": "The product definition node holds all definitions that make up a product, including how the product is calculated and the datasets the product is comprised of."
+    },
+    {
+        "type": "Dataset Definition",
+        "definition": "A dataset definition contains a configuration file that defines many aspects of the dataset. There are two types of dataset definitions: Multi-Period-Market and Multi-Period-Daily."
+    },
+    {
+        "type": "Indicator Bot",
+        "definition": "An indicator bot is an algorithm that processes information that other bots have generated, and produces elaborate datasets for others to consume."
+    },
+    {
+        "type": "Output Dataset",
+        "definition": "The output dataset is a reference to a dataset definition. By establishing such reference, the process acquires the definitions as of how the dataset is to be constructed."
+    },
+    {
+        "type": "Data Dependency",
+        "definition": "Data dependencies are references established with dataset definitions of other bots, determining which datasets the process establishing the reference uses as input."
+    },
+    {
+        "type": "Record Definition",
+        "definition": "The record definition is where indicators define how many properties, what properties and in which order those properties will be made available in each record."
+    },
+    {
+        "type": "Record Property",
+        "definition": "A record property is a piece of information that may be stored as part of the dataset or made available as a calculated property."
+    },
+    {
+        "type": "Formula",
+        "definition": "A formula is a mathematical expression intended to determine a numerical value to be applied dynamically to a certain property."
+    },
+    {
+        "type": "Announcement Formula"
+    },
+    {
+        "type": "Calculations Procedure",
+        "definition": "The calculations procedure processes information to be fed to calculated properties. Calculated properties are not stored in the data set; instead, they are calculated in real-time as the data is consumed by others."
+    },
+    {
+        "type": "Procedure Initialization",
+        "definition": "The procedure initialization is used to initialize variables used by the procedure loop."
+    },
+    {
+        "type": "Procedure Loop",
+        "definition": "The procedure loop holds the JavaScript code that reads an input, processes the information, and generates an output recursively."
+    },
+    {
+        "type": "Data Building Procedure",
+        "definition": "The data building procedure processes information to be fed to properties that are stored in the output dataset."
+    },
+    {
+        "type": "Trading Bot",
+        "definition": "Based on datasets exposed as products by other bots (counting sensors, indicators and even other trading bots), a trading bot applies the trading logic defined on a trading system to, on one side, generate a complete trading simulation (outputting datasets that include trades, the action of strategies, validation of conditions, etc.), and on the other side, manage the execution of orders when on a forward testing or live trading session."
+    },
+    {
+        "type": "Plotter",
+        "definition": "A plotter is a device used to produce a graphic representation of datasets generated by bots."
+    },
+    {
+        "type": "Trading System",
+        "definition": "A trading system is a framework handling the low-level logic that serves to structure the processes and methods used to implement and deploy trading strategies."
+    },
+    {
+        "type": "Trading Strategy",
+        "definition": "A trading strategy is a set of actions occurring in stages, designed to achieve a specific goal within a broader plan, via taking and managing positions."
+    },
+    {
+        "type": "Trigger Stage",
+        "definition": "The trigger stage deals with monitoring the market in search of trading opportunities with the corresponding strategy."
+    },
+    {
+        "type": "Trigger On Event"
+    },
+    {
+        "type": "Trigger Off Event"
+    },
+    {
+        "type": "Take Position Event",
+        "definition": "The take position event defines the situation that needs to be met to take a position."
+    },
+    {
+        "type": "Open Stage",
+        "definition": "The open stage deals with the definitions that make up the logic to enter a position, including the target rate and size, and order execution."
+    },
+    {
+        "type": "Close Stage Event",
+        "definition": "The close stage event defines the set of rules that need to be met for the corresponding stage to be closed."
+    },
+    {
+        "type": "Initial Targets",
+        "definition": "The initial targets node holds the most basic definitions about the position to be taken: the target rate and the target size."
+    },
+    {
+        "type": "Managed Stop Loss",
+        "definition": "The managed stop loss node features the definition of the phases that make up the management of the stop loss target as the position develops."
+    },
+    {
+        "type": "Phase"
+    },
+    {
+        "type": "Next Phase Event",
+        "definition": "The next phase event determines when there should be a switch of phases to the next phase in a predefined sequence."
+    },
+    {
+        "type": "Move To Phase Event",
+        "definition": "The move to phase event determines when there should be a switch of phases from the current phase to an arbitrary phase determined by a reference."
+    },
+    {
+        "type": "Managed Take Profit",
+        "definition": "The managed take profit node features the definition of the phases that make up the management of the take profit target as the position develops."
+    },
+    {
+        "type": "Target Size In Base Asset",
+        "definition": "Target size in base asset is used to define the size of the position, denominating it in the base asset."
+    },
+    {
+        "type": "Target Size In Quoted Asset",
+        "definition": "Target size in quoted asset is used to define the size of the position, denominating it in the quoted asset."
+    },
+    {
+        "type": "Target Rate",
+        "definition": "The target rate is a reference rate that, in combination with the placement of managed stop loss and managed take profit targets, is used to determine whether the targets have been hit."
+    },
+    {
+        "type": "Order Rate",
+        "definition": "The order rate node defines the rate of limit orders."
+    },
+    {
+        "type": "Open Execution",
+        "definition": "The open execution node groups all execution algorithms involved in the process of opening a position."
+    },
+    {
+        "type": "Execution Algorithm",
+        "definition": "An execution algorithm is a set of instructions used to place and manage orders at the exchange."
+    },
+    {
+        "type": "Market Buy Order",
+        "definition": "A market buy order is an instruction sent to the exchange to buy the base asset, for immediate execution at current market prices."
+    },
+    {
+        "type": "Market Sell Order",
+        "definition": "A market sell order is an instruction sent to the exchange to sell the base asset, for immediate execution at current market prices."
+    },
+    {
+        "type": "Limit Buy Order",
+        "definition": "A limit buy order is an instruction sent to the exchange to buy the base asset, for execution at a specific rate or better."
+    },
+    {
+        "type": "Limit Sell Order",
+        "definition": "A limit sell order is an instruction sent to the exchange to sell the base asset, for execution at a specific rate or better."
+    },
+    {
+        "type": "Create Order Event",
+        "definition": "The create order event controls the placement of orders."
+    },
+    {
+        "type": "Cancel Order Event",
+        "definition": "The cancel order event makes cancelling limit orders possible."
+    },
+    {
+        "type": "Simulated Exchange Events",
+        "definition": "The simulated exchange event node allows to override the parameters set at the level of the trading session on a per order basis to determine how each order shall be simulated."
+    },
+    {
+        "type": "Simulated Partial Fill",
+        "definition": "The simulated partial fill parameter allows simulating the partial fill of orders."
+    },
+    {
+        "type": "Simulated Actual Rate",
+        "definition": "The simulated actual rate node allows setting a specific rate value for the simulation of each order, overriding the slippage parameter of the trading session."
+    },
+    {
+        "type": "Simulated Fees Paid",
+        "definition": "The simulated fees paid node allows setting a specific fee for the simulation of each order, overriding the fee structure parameter of the trading session."
+    },
+    {
+        "type": "Manage Stage",
+        "definition": "The manage stage deals with the setting and management of stop loss and take profit targets, both to protect your capital and to increase the efficiency of your trading system."
+    },
+    {
+        "type": "Close Stage",
+        "definition": "The close stage deals with the definitions that make up the logic to close a position, including the target rate and size, and order execution."
+    },
+    {
+        "type": "Close Execution",
+        "definition": "The close execution node groups all execution algorithms involved in the process of closing a position."
+    },
+    {
+        "type": "Social Bots"
+    },
+    {
+        "type": "Telegram Bot"
+    },
+    {
+        "type": "Announcement"
+    },
+    {
+        "type": "Announcement Condition"
+    },
+    {
+        "type": "Crypto Ecosystem",
+        "definition": "The crypto ecosystem is a hierarchy that contains definitions about third-parties, including exchanges and their markets, as well as accounts of users with those third parties."
+    },
+    {
+        "type": "Super Actions"
+    },
+    {
+        "type": "Signals Providers"
+    },
+    {
+        "type": "Signals Provider"
+    },
+    {
+        "type": "Crypto Exchanges",
+        "definition": "The crypto exchanges node groups definitions of the different exchanges the user may interact with."
+    },
+    {
+        "type": "Crypto Exchange",
+        "definition": "A crypto exchange node holds the definitions of assets and markets in a specific exchange."
+    },
+    {
+        "type": "Exchange Assets",
+        "definition": "The exchange assets node groups the definitions of assets."
+    },
+    {
+        "type": "Asset",
+        "definition": "An asset node is the definition of an asset listed at the corresponding exchange."
+    },
+    {
+        "type": "Exchange Markets",
+        "definition": "The exchange markets node groups the definitions of markets."
+    },
+    {
+        "type": "Market",
+        "definition": "A market is the definition of a pair of assets (i.e.: BTC-USDT) listed as a market in the corresponding exchange."
+    },
+    {
+        "type": "Exchange Accounts",
+        "definition": "The exchange accounts node groups the different accounts the user may have with the corresponding exchange."
+    },
+    {
+        "type": "User Account",
+        "definition": "A user account represents a single account with the corresponding exchange, holding the definitions of user assets, including keys and balances."
+    },
+    {
+        "type": "User Assets",
+        "definition": "The user assets node groups the assets the user has at the exchange."
+    },
+    {
+        "type": "User Keys",
+        "definition": "The user keys node groups the various exchange account keys the user may have under the corresponding account with the exchange."
+    },
+    {
+        "type": "Exchange Account Asset",
+        "definition": "The exchange account asset represents a single asset the user has at the exchange."
+    },
+    {
+        "type": "Exchange Account Key",
+        "definition": "The exchange account key holds the definition of the key name and secret provided by the corresponding exchange to access the user account via the exchange API."
+    },
+    {
+        "type": "Charting Space",
+        "definition": "The charting space is the hierarchy that governs the configuration of the charts, and the bidimensional space on which charts are drawn."
+    },
+    {
+        "type": "Dashboard",
+        "definition": "A dashboard is a collection of time machines, each containing any number of charts."
+    },
+    {
+        "type": "Time Machine",
+        "definition": "A time machine synchronizes multiple timeline charts over the same timeline. Timeline charts within a time machine may have different rate scales or time frame scales, but their time scale will always match."
+    },
+    {
+        "type": "Viewport",
+        "definition": "The viewport is a window through which you may look into the charting space."
+    },
+    {
+        "type": "Time Scale",
+        "definition": "The time scale controls the scale of the horizontal axis, that is, the timeline of the corresponding time machine, and of all of the timeline charts within it."
+    },
+    {
+        "type": "Rate Scale",
+        "definition": "The rate scale controls the scale of the vertical axis, that is, the scale of the quoted asset, either of the time machine or of the timeline chart, depending on where the node is located."
+    },
+    {
+        "type": "Time Frame Scale",
+        "definition": "The time frame scale controls the time frame setting, that is, the period represented by each candle, either of the time machine or of the timeline chart, depending on where the node is located."
+    },
+    {
+        "type": "Timeline Chart",
+        "definition": "The timeline chart represents a chart within a time machine, which may have independent rate and time frame scales, as well as particular layers."
+    },
+    {
+        "type": "Layers Manager",
+        "definition": "The layer manager determines which layers will be visible on the corresponding timeline chart."
+    },
+    {
+        "type": "Layer",
+        "definition": "A layer represents a reference to a data product in the data storage node of the network hierarchy. Conceptually, it means that a certain data product, which exists in a certain location on the network, holds the data to be rendered on the charts."
+    },
+    {
+        "type": "Bot Layers"
+    },
+    {
+        "type": "Layer Folder"
+    },
+    {
+        "type": "Data Storage",
+        "definition": "The data storage node controls aspects of what data is to be stored in the corresponding network node."
+    },
+    {
+        "type": "Data Mine Tasks"
+    },
+    {
+        "type": "Trading Mine Tasks"
+    },
+    {
+        "type": "Market Data Tasks"
+    },
+    {
+        "type": "Market Trading Tasks"
+    },
+    {
+        "type": "Exchange Data Tasks"
+    },
+    {
+        "type": "Exchange Trading Tasks"
+    },
+    {
+        "type": "Data Mining",
+        "definition": "Data mining is the activity of processing data. You need to process data to feed charts, and so that the trading bot may make decisions based on quality information. In the context of the network hierarchy, the data-mining node groups the task managers handling sensor and indicator bots instances."
+    },
+    {
+        "type": "Testing Environment",
+        "definition": "The testing environment node organizes trading sessions involving testing of trading systems."
+    },
+    {
+        "type": "Production Environment",
+        "definition": "The production environment node organizes trading sessions involving live trading."
+    },
+    {
+        "type": "Exchange Data Products",
+        "definition": "The exchange data products node organizes session independent data by exchange. That is, each exchange installed in the system has an exchange data products node grouping all single market data nodes corresponding to the said exchange."
+    },
+    {
+        "type": "Data Mines Data"
+    },
+    {
+        "type": "Exchange Trading Products"
+    },
+    {
+        "type": "Trading Mines Data"
+    },
+    {
+        "type": "Session Reference",
+        "definition": "A session reference establishes which session is the one which shall store data in the current location."
+    },
+    {
+        "type": "Market Data Products"
+    },
+    {
+        "type": "Market Trading Products"
+    },
+    {
+        "type": "Data Product",
+        "definition": "A data product represents the collection of datasets generated by the instance of a bot as defined in the corresponding data mine."
+    },
+    {
+        "type": "Data Mine Products"
+    },
+    {
+        "type": "Trading Mine Products"
+    },
+    {
+        "type": "Bot Products"
+    },
+    {
+        "type": "Data Product Folder"
+    },
+    {
+        "type": "Tutorial"
+    },
+    {
+        "type": "Tutorial Topic"
+    },
+    {
+        "type": "Tutorial Step"
+    },
+    {
+        "type": "Bot Data Dependencies"
+    },
+    {
+        "type": "Data Mine Data Dependencies"
+    },
+    {
+        "type": "Data Dependency Folder"
+    }
+]
