@@ -62,7 +62,7 @@
 
 {{include.adding}} Adding {{preposition}} {{title}} Node
 
-<!--------------------------------------------- ADDING starts --><!--------------------------------------------- ADDING ends -->
+<!--------------------------------------------- ADDING starts -->To add a strategy, select *Add Strategy* on the trading system node menu. The strategy node is created along with the rest of the basic structure of nodes required to define each of the strategy stages and their events.{% include tip.html content="You may work with as many strategies as you wish. " %}{% include important.html content="Strategies within the same trading system work in the same market, have the same base asset, and &mdash;most importantly&mdash;share the same capital. This means that only one strategy in the trading system may be triggered at any one point and that no other strategy in the trading system may be triggered until the first one is triggered off. If you wish to have more than one strategy trading at the same time, then those strategies must be put in separate trading systems. " %}<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -70,7 +70,7 @@
 
 {{include.configuring}} Configuring the {{title}}
 
-<!--------------------------------------------- CONFIGURING starts --><!--------------------------------------------- CONFIGURING ends -->
+<!--------------------------------------------- CONFIGURING starts -->XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<!--------------------------------------------- CONFIGURING ends -->
 
 {% endif %}
 

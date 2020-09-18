@@ -62,7 +62,7 @@
 
 {{include.adding}} Adding {{preposition}} {{title}} Node
 
-<!--------------------------------------------- ADDING starts --><!--------------------------------------------- ADDING ends -->
+<!--------------------------------------------- ADDING starts -->To add a manage stage node, select *Add Missing Stages* on the strategy node menu. All stages that may be missing are created along with the rest of the basic structure of nodes required to define each of them and their events.{% include note.html content="Only one manage stage may exist in each strategy." %}<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -70,7 +70,7 @@
 
 {{include.configuring}} Configuring the {{title}}
 
-<!--------------------------------------------- CONFIGURING starts --><!--------------------------------------------- CONFIGURING ends -->
+<!--------------------------------------------- CONFIGURING starts -->XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<!--------------------------------------------- CONFIGURING ends -->
 
 {% endif %}
 

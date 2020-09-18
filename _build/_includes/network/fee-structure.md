@@ -62,7 +62,7 @@
 
 {{include.adding}} Adding {{preposition}} {{title}} Node
 
-<!--------------------------------------------- ADDING starts --><!--------------------------------------------- ADDING ends -->
+<!--------------------------------------------- ADDING starts -->To add a parameter that may be missing, select *Add Missing Params* on the parameters node menu. <!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -70,7 +70,7 @@
 
 {{include.configuring}} Configuring the {{title}}
 
-<!--------------------------------------------- CONFIGURING starts --><!--------------------------------------------- CONFIGURING ends -->
+<!--------------------------------------------- CONFIGURING starts -->Select *Configure Fee Structure* on the menu to access the configuration.```json{"maker": 0.15,"taker": 0.25}```* ```maker``` is the setting for the fee the exchange charges when an order adds liquidity to the market, such as with limit orders.* ```taker``` is the setting for the fee the exchange charges when an order takes liquidity from the market, such as with market or instant orders.{% include note.html content="Check the fees structure in your exchange, carefully looking into the tier you fall in to feed accurate assumptions to your backtesting and paper trading sessions." %}{% include note.html content="If the fee structure parameter is left empty or detached both from your session and your trading system, fees are not computed during simulations." %}{% include important.html content="Remember that, for the time being, and until the new execution engine is released, all orders placed by the trading bot are *market orders*, thus, the *taker* fee applies in all cases." %}<!--------------------------------------------- CONFIGURING ends -->
 
 {% endif %}
 

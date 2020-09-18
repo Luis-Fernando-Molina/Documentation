@@ -1,7 +1,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
 {% assign title = "XXXXXXXXXXXXXXXX" %}
-{% assign definition = site.data.network.XXXXXXXXXXXXXXXX %}
+{% assign definition = site.data.super_scripts.XXXXXXXXXXXXXXXX %}
 {% assign preposition = "XXXXXXXXXXXXXXXX" %}
 {% assign plural = "s" %}
 
@@ -49,7 +49,7 @@
 
 {% if include.content != "no" %}
 
-<!--------------------------------------------- CONTENT starts -->The parameter allows defining an initial balance of the corresponding asset, which may be used for trading with the corresponding trading system and trading session. Please see the configuration.<!--------------------------------------------- CONTENT ends -->
+<!--------------------------------------------- CONTENT starts -->In the case of the master script, the JavaScript Code node features the code required to run each template script and handle the operations beyond the scope of individual template scripts.In the case of a template script, the JavaScript Code node features the code that deals with the specific scope of the template script only.<!--------------------------------------------- CONTENT ends -->
 
 {% endif %}
 
@@ -62,7 +62,7 @@
 
 {{include.adding}} Adding {{preposition}} {{title}} Node
 
-<!--------------------------------------------- ADDING starts -->To add a parameter that may be missing, select *Add Missing Params* on the parameters node menu. {% include note.html content="After adding a quoted asset node, make sure you establish a reference to the second asset in the same market of the same exchange as the reference established with the base asset." %}<!--------------------------------------------- ADDING ends -->
+<!--------------------------------------------- ADDING starts -->To add a JavaScript code node, select *Add JavaScript Code* on the master script or the template script node menu. <!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 

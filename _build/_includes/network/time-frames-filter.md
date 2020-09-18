@@ -62,7 +62,7 @@
 
 {{include.adding}} Adding {{preposition}} {{title}} Node
 
-<!--------------------------------------------- ADDING starts --><!--------------------------------------------- ADDING ends -->
+<!--------------------------------------------- ADDING starts -->To add the {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. <!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -70,7 +70,7 @@
 
 {{include.configuring}} Configuring the {{title}}
 
-<!--------------------------------------------- CONFIGURING starts --><!--------------------------------------------- CONFIGURING ends -->
+<!--------------------------------------------- CONFIGURING starts -->Select *Configure* on the menu to access the configuration.```json{ "dailyTimeFrames": [ "45-min", "40-min", "30-min", "20-min", "15-min", "10-min", "05-min", "04-min", "03-min", "02-min", "01-min" ],"marketTimeFrames": [ "24-hs", "12-hs", "08-hs", "06-hs", "04-hs", "03-hs", "02-hs", "01-hs"]}```* ```dailyTimeFrames``` features the time frames corresponding to the *daily files* type of data structure; in practical terms, the time frames below one hour.* ```marketTimeFrames``` features the time frames corresponding to the *market files* type of data structure; in practical terms, the time frames of one hour and above.{% include tip.html content="Remove the time frames you are not interested in, making sure the JSON file is still valid." %}<!--------------------------------------------- CONFIGURING ends -->
 
 {% endif %}
 

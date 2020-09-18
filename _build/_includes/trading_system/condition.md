@@ -62,7 +62,7 @@
 
 {{include.adding}} Adding {{preposition}} {{title}} Node
 
-<!--------------------------------------------- ADDING starts --><!--------------------------------------------- ADDING ends -->
+<!--------------------------------------------- ADDING starts -->To add a condition, select *Add Condition* on the corresponding situation node menu. A condition with its JavaScript code node is added.<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -70,7 +70,7 @@
 
 {{include.configuring}} Configuring the {{title}}
 
-<!--------------------------------------------- CONFIGURING starts --><!--------------------------------------------- CONFIGURING ends -->
+<!--------------------------------------------- CONFIGURING starts -->XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<!--------------------------------------------- CONFIGURING ends -->
 
 {% endif %}
 
@@ -78,7 +78,7 @@
 
 {{include.starting}} Starting {{preposition}} {{title}}
 
-<!--------------------------------------------- STARTING starts --><!--------------------------------------------- STARTING ends -->
+<!--------------------------------------------- STARTING starts -->XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<!--------------------------------------------- STARTING ends -->
 
 {% endif %}
 

@@ -62,7 +62,7 @@
 
 {{include.adding}} Adding {{preposition}} {{title}} Node
 
-<!--------------------------------------------- ADDING starts --><!--------------------------------------------- ADDING ends -->
+<!--------------------------------------------- ADDING starts -->To add a parameter that may be missing, select *Add Missing Params* on the parameters node menu. <!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -70,7 +70,7 @@
 
 {{include.configuring}} Configuring the {{title}}
 
-<!--------------------------------------------- CONFIGURING starts --><!--------------------------------------------- CONFIGURING ends -->
+<!--------------------------------------------- CONFIGURING starts -->Select *Configure Time Frame* on the menu to access the configuration.```js{"value": "01-min"}```* ```value``` is the setting for the time frame. You may use any of the values below.Available options at the sub-hour level are:```json01-min02-min03-min04-min05-min10-min15-min20-min30-min45-min```Available options at larger time frames are:```json01-hs02-hs03-hs04-hs06-hs08-hs12-hs24-hs```<!--------------------------------------------- CONFIGURING ends -->
 
 {% endif %}
 

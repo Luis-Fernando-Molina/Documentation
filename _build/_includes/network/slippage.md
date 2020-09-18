@@ -62,7 +62,7 @@
 
 {{include.adding}} Adding {{preposition}} {{title}} Node
 
-<!--------------------------------------------- ADDING starts --><!--------------------------------------------- ADDING ends -->
+<!--------------------------------------------- ADDING starts -->To add a parameter that may be missing, select *Add Missing Params* on the parameters node menu. <!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -70,7 +70,7 @@
 
 {{include.configuring}} Configuring the {{title}}
 
-<!--------------------------------------------- CONFIGURING starts --><!--------------------------------------------- CONFIGURING ends -->
+<!--------------------------------------------- CONFIGURING starts -->Select *Configure Slippage* on the menu to access the configuration.```json{"positionRate": 0.1,"stopLoss": 0.2,"takeProfit": 0.3}```* ```positionRate``` is the slippage value to be applied to the rate of the take position order, expressed as a percentage (*i.e.:* 0.1 means 0.1%).* ```stopLoss``` is the slippage value to be applied to the rate of the stop order, expressed as a percentage (*i.e.:* 0.2 means 0.2%).* ```takeProfit``` is the slippage value to be applied to the rate of the take profit order, expressed as a percentage (*i.e.:* 0.3 means 0.3%).The number you enter is applied as a percentage of the price of the order and added or subtracted from the price depending on the circumstances, always working against you. For instance, ```"positionRate": 0.1``` means the position will be set at a price 0.1% higher or lower depending on which of the assets in the pair is your base asset. {% include note.html content="If the slippage parameter is left empty or detached both from your session and your trading system, slippage is not computed during simulations."%}<!--------------------------------------------- CONFIGURING ends -->
 
 {% endif %}
 

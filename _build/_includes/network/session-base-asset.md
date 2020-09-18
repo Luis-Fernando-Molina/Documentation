@@ -49,7 +49,7 @@
 
 {% if include.content != "no" %}
 
-<!--------------------------------------------- CONTENT starts -->The parameter allows defining an initial balance of the corresponding asset, which may be used for trading with the corresponding trading system and trading session. Please see the configuration.<!--------------------------------------------- CONTENT ends -->
+<!--------------------------------------------- CONTENT starts --><!--------------------------------------------- CONTENT ends -->
 
 {% endif %}
 
@@ -62,7 +62,7 @@
 
 {{include.adding}} Adding {{preposition}} {{title}} Node
 
-<!--------------------------------------------- ADDING starts -->To add a parameter that may be missing, select *Add Missing Params* on the parameters node menu. {% include note.html content="After adding a quoted asset node, make sure you establish a reference to the second asset in the same market of the same exchange as the reference established with the base asset." %}<!--------------------------------------------- ADDING ends -->
+<!--------------------------------------------- ADDING starts -->To add a parameter that may be missing, select *Add Missing Params* on the parameters node menu. {% include note.html content="After adding a base asset node, make sure you establish a reference to the asset in a specific market of a specific exchange in the Crypto Ecosystem hierarchy." %}<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -70,7 +70,7 @@
 
 {{include.configuring}} Configuring the {{title}}
 
-<!--------------------------------------------- CONFIGURING starts -->XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<!--------------------------------------------- CONFIGURING ends -->
+<!--------------------------------------------- CONFIGURING starts -->Select *Configure Base Asset* on the menu to access the configuration.```json{"initialBalance": 0.001,"minimumBalance": 0.0001,"maximumBalance": 0.1}```* ```initialBalance``` is the amount of capital you wish to allocate to the trading system.* ```minimumBalance``` is the threshold of accummulated losses that switches off the session; when your overall balance (balanceAssetA + balanceAssetB) drops to this value, all trading stops; think of the ```minimumBalance``` as a general safety switch.* ```maximumBalance``` is a similar concept as with the ```minimumBalance``` but on the high side of the ```initialBalance```.<!--------------------------------------------- CONFIGURING ends -->
 
 {% endif %}
 
@@ -78,7 +78,7 @@
 
 {{include.starting}} Starting {{preposition}} {{title}}
 
-<!--------------------------------------------- STARTING starts -->XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<!--------------------------------------------- STARTING ends -->
+<!--------------------------------------------- STARTING starts --><!--------------------------------------------- STARTING ends -->
 
 {% endif %}
 

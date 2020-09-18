@@ -49,7 +49,7 @@
 
 {% if include.content != "no" %}
 
-<!--------------------------------------------- CONTENT starts -->The system allows developers great flexibility as all valid JavaScript code is allowed. {% include important.html content="Until a robust JavaScript editor is implemented on the UI, it is recommended to write code on an external editor and paste it in the UI code bubble to ensure consistency." %}<!--------------------------------------------- CONTENT ends -->
+<!--------------------------------------------- CONTENT starts -->The default management of phases is sequential, meaning that phase 2 comes after phase 1, phase 3 comes after phase 2, and so on. To switch from one phase to the next phase in the sequence, the next phase event is used. When the situation described in the next phase event validates ```true```, the switch occurs and the next phase becomes the active phase.However, management does not need to happen sequentially. By using the move to phase event instead of the next phase event, the system may activate any other phase and not just the one next in the sequence.Both events may be used at the same time, and whichever event is triggered first takes precedence.{% include note.html content="Notice that stop loss and take profit phases are independent and defined separately from each other, each below the corresponding managed stop loss and managed take profit nodes." %}{% include note.html content="The value of the target set for a phase is expressed by a formula. Learn more about [formulas](suite-situations-conditions-formulas.html) and how to write them." %}{% include tip.html content="This explanation about phase 1 may be extended to any other phase, as they all work similarly, and it applies both for managed stop loss phases and managed take profit phases." %}<!--------------------------------------------- CONTENT ends -->
 
 {% endif %}
 
@@ -62,7 +62,7 @@
 
 {{include.adding}} Adding {{preposition}} {{title}} Node
 
-<!--------------------------------------------- ADDING starts -->To add a JavaScript code node, select *Add Code* on the corresponding parent node menu. <!--------------------------------------------- ADDING ends -->
+<!--------------------------------------------- ADDING starts -->To add a new phase, select *Add Phase* on the stop or take-profit node menu. A new phase is added along with the basic structure of nodes required to define each of them and their events.<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
