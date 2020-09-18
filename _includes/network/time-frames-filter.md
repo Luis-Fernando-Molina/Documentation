@@ -76,7 +76,7 @@ When a time frames filter is set up, a ```Time.Frames.json``` file is created by
 
 To add the {{ title | downcase }} node, select *Add {{ title }}* on the parent node menu. 
 
-<!-- ADDING ends -->
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -84,7 +84,7 @@ To add the {{ title | downcase }} node, select *Add {{ title }}* on the parent n
 
 {{include.configuring}} Configuring the {{title}}
 
-<!-- CONFIGURING starts -->
+<!--------------------------------------------- CONFIGURING starts -->
 
 Select *Configure* on the menu to access the configuration.
 

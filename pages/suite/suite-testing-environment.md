@@ -1,14 +1,12 @@
 ---
 title:  Testing Environment
-summary: "The testing environment within the network hierarchy organizes your strategy-testing resources, grouping tasks, and associated backtesting and paper trading sessions."
+summary: "The testing environment organizes your strategy-testing resources, grouping tasks and associated backtesting and paper trading sessions."
 sidebar: suite_sidebar
 permalink: suite-testing-environment.html
 toc: false
 ---
 
 {% include /network/testing-environment.md heading="" icon="150" adding="" configuring="" starting="" content="yes" definition="bold" table="yes" more="no"%}
-
-{% include tip.html content="If you are familiar with the production environment, the testing environment works in the exact same way, only that it features backtesting and paper trading sessions instead of forward testing and live trading sessions. Testing sessions do not require the setup of key references." %}
 
 <table class='hierarchyTable'><thead><tr><th><a href='#testing-environment' data-toggle='tooltip' data-original-title='{{site.data.network.testing_environment}}'><img src='images/icons/nodes/png50/testing-environment.png' /><br />Testing Environment</a></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody>
 <tr><td><img src='images/icons/various/png/tree-connector-elbow.png' /></td><td><a href='#exchange-trading-tasks' data-toggle='tooltip' data-original-title='{{site.data.network.exchange_trading_tasks}}'><img src='images/icons/nodes/png50/exchange-trading-tasks.png' /><br />Exchange Trading Tasks</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>

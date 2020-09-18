@@ -80,7 +80,7 @@ The trade hits the take profit target above the Position Rate level, however, du
 
 To add a parameter that may be missing, select *Add Missing Params* on the parameters node menu. 
 
-<!-- ADDING ends -->
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -88,7 +88,7 @@ To add a parameter that may be missing, select *Add Missing Params* on the param
 
 {{include.configuring}} Configuring the {{title}}
 
-<!-- CONFIGURING starts -->
+<!--------------------------------------------- CONFIGURING starts -->
 
 Select *Configure Fee Structure* on the menu to access the configuration.
 

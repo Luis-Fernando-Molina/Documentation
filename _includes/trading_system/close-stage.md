@@ -76,7 +76,7 @@ To add a close stage node, select *Add Missing Stages* on the strategy node menu
 
 {% include note.html content="Only one close stage may exist in each strategy." %}
 
-<!-- ADDING ends -->
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -84,11 +84,11 @@ To add a close stage node, select *Add Missing Stages* on the strategy node menu
 
 {{include.configuring}} Configuring the {{title}}
 
-<!-- CONFIGURING starts -->
+<!--------------------------------------------- CONFIGURING starts -->
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-<!-- CONFIGURING ends -->
+<!--------------------------------------------- CONFIGURING ends -->
 
 {% endif %}
 
@@ -96,7 +96,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 {{include.starting}} Starting {{preposition}} {{title}}
 
-<!-- STARTING starts -->
+<!--------------------------------------------- STARTING starts -->
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 

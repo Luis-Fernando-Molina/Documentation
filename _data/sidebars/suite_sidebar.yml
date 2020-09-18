@@ -615,6 +615,16 @@ entries:
       url: /suite-data-storage.html
       output: web
 
+    - title: Data mines data
+      url: /suite-data-mines-data.html
+      output: web
+      class: childItem
+
+    - title: Trading mines data
+      url: /suite-trading-mines-data.html
+      output: web
+      class: childItem
+
   - title: Data mines
     output: web
     folderitems:

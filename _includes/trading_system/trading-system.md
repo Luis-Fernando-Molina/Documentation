@@ -82,7 +82,7 @@ To add a trading system, select *Add Trading System* on the workspace node menu.
 
 {% include tip.html content="You may work with as many trading systems as you wish" %}
 
-<!-- ADDING ends -->
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -90,7 +90,7 @@ To add a trading system, select *Add Trading System* on the workspace node menu.
 
 {{include.configuring}} Configuring the {{title}}
 
-<!-- CONFIGURING starts -->
+<!--------------------------------------------- CONFIGURING starts -->
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 

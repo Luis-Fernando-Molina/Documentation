@@ -83,7 +83,7 @@ To add an open stage node, select *Add Missing Stages* on the strategy node menu
 
 {% include note.html content="Only one open stage may exist in each strategy." %}
 
-<!-- ADDING ends -->
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -91,7 +91,7 @@ To add an open stage node, select *Add Missing Stages* on the strategy node menu
 
 {{include.configuring}} Configuring the {{title}}
 
-<!-- CONFIGURING starts -->
+<!--------------------------------------------- CONFIGURING starts -->
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 

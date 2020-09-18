@@ -58,9 +58,7 @@ manage_stage: "The manage stage deals with the setting and management of stop lo
 
 managed_stop_loss: "The managed stop loss node features the definition of the phases that make up the management of the stop loss target as the position develops."
 
-phase_0: "Phase 0 represents the starting point for a stop or take profit target, which may be managed in subsequent phases, on the manage stage."
-
-phase_1: "Phase 1 sets the initial targets, either for the managed stop loss or the managed take profit, and becomes active as soon as the first order is placed."
+phase: "The management of take profit and stop loss targets is done in phases. Phase 1 sets the initial targets, either for the managed stop loss or the managed take profit, and becomes active as soon as the first order is placed. Subsequent phases allows switching to different formulas given certain market situations."
 
 next_phase_event: "The next phase event determines when there should be a switch of phases to the next phase in a predefined sequence."
 

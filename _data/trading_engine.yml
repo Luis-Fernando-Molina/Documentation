@@ -36,7 +36,7 @@ hit_ratio: "Hit ratio is the percentage of positions that closed with a positive
 
 profit_loss: "Profit loss is the difference between the balance at the end and the balance at the beginning of a certain period, given by the context."
 
-roi: "ROI is a ratio that compares the profit loss with the cost of the investment, expressed as a percentage."
+ROI: "ROI is a ratio that compares the profit loss with the cost of the investment, expressed as a percentage."
 
 annualized_rate_of_return: "Annualized rate of return is the equivalent ROI scaled to one year."
 

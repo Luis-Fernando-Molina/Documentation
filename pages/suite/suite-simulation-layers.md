@@ -21,7 +21,7 @@ The dashed line represents the duration of the trade at the price of the take po
 
 {% include image-ext.html file='https://user-images.githubusercontent.com/13994516/67279791-040d5880-f4cc-11e9-9cac-db42c419ca0c.gif' url='yes' max-width='100' caption='' %}
 
-Notice the green horizontal lines indicating the take profit value for each period or candle). Take profit is managed in <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.phase_1}}">phases</a>, marked with the corresponding icons.
+Notice the green horizontal lines indicating the take profit value for each period or candle). Take profit is managed in <a data-toggle="tooltip" data-original-title="{{site.data.trading_system.phase}}">phases</a>, marked with the corresponding icons.
 
 {% include image-ext.html file='https://user-images.githubusercontent.com/13994516/67279792-040d5880-f4cc-11e9-8487-cf390d78da92.gif' url='yes' max-width='100' caption='' %}
 

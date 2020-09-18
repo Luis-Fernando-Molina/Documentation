@@ -72,7 +72,7 @@ Check the configuration to learn more.
 
 To add a parameter that may be missing, select *Add Missing Params* on the parameters node menu. 
 
-<!-- ADDING ends -->
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -80,7 +80,7 @@ To add a parameter that may be missing, select *Add Missing Params* on the param
 
 {{include.configuring}} Configuring the {{title}}
 
-<!-- CONFIGURING starts -->
+<!--------------------------------------------- CONFIGURING starts -->
 
 Select *Configure Time Range* on the menu to access the configuration. The configuration varies slightly depending on the type of session you are running.
 

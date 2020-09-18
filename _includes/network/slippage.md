@@ -72,7 +72,7 @@ Slippage is factored both in the session reports and in the graphic representati
 
 To add a parameter that may be missing, select *Add Missing Params* on the parameters node menu. 
 
-<!-- ADDING ends -->
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -80,7 +80,7 @@ To add a parameter that may be missing, select *Add Missing Params* on the param
 
 {{include.configuring}} Configuring the {{title}}
 
-<!-- CONFIGURING starts -->
+<!--------------------------------------------- CONFIGURING starts -->
 
 Select *Configure Slippage* on the menu to access the configuration.
 

@@ -1,7 +1,7 @@
 <!--------------------------------------------- TITLE AND DEFINITION starts -->
 
 {% assign title = "ROI" %}
-{% assign definition = site.data.trading_engine.roi %}
+{% assign definition = site.data.trading_engine.ROI %}
 {% assign preposition = "a" %}
 {% assign plural = "s" %}
 

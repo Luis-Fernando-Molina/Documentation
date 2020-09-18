@@ -72,7 +72,7 @@ To add a parameter that may be missing, select *Add Missing Params* on the param
 
 {% include note.html content="After adding a base asset node, make sure you establish a reference to the asset in a specific market of a specific exchange in the Crypto Ecosystem hierarchy." %}
 
-<!-- ADDING ends -->
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -80,7 +80,7 @@ To add a parameter that may be missing, select *Add Missing Params* on the param
 
 {{include.configuring}} Configuring the {{title}}
 
-<!-- CONFIGURING starts -->
+<!--------------------------------------------- CONFIGURING starts -->
 
 Select *Configure Base Asset* on the menu to access the configuration.
 
@@ -99,7 +99,7 @@ Select *Configure Base Asset* on the menu to access the configuration.
 * ```maximumBalance``` is a similar concept as with the ```minimumBalance``` but on the high side of the ```initialBalance```.
 
 
-<!-- CONFIGURING ends -->
+<!--------------------------------------------- CONFIGURING ends -->
 
 {% endif %}
 

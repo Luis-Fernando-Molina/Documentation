@@ -82,7 +82,7 @@ In the example above, conditions A and B are comparison statements that may eval
 
 To add a condition, select *Add Condition* on the corresponding situation node menu. A condition with its JavaScript code node is added.
 
-<!-- ADDING ends -->
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -90,11 +90,11 @@ To add a condition, select *Add Condition* on the corresponding situation node m
 
 {{include.configuring}} Configuring the {{title}}
 
-<!-- CONFIGURING starts -->
+<!--------------------------------------------- CONFIGURING starts -->
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-<!-- CONFIGURING ends -->
+<!--------------------------------------------- CONFIGURING ends -->
 
 {% endif %}
 
@@ -102,7 +102,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 {{include.starting}} Starting {{preposition}} {{title}}
 
-<!-- STARTING starts -->
+<!--------------------------------------------- STARTING starts -->
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 

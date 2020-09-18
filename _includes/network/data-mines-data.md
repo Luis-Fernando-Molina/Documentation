@@ -51,7 +51,11 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+As explained in the [sorting of tasks](suite-sorting-of-tasks.html) page, data mines data is sorted by exchange, market, and the corresponding data mine, sensor or indicator bot, and bot product. That is, most of the nodes in this section of the hierarchy play an organizational role.
+
+Many of them require references to the nodes that delimit the context for which the data is applicable. For example, the market data products node must reference one of the installed markets, in particular, the market on which the data mining operation is run. These references help other entities understand the context to which the data belongs to.
+
+Whenever you create data mining tasks manually from within the Network hierarchy (as opposed to using the [install market](suite-how-to-install-a-new-market.html) function under the exchange markets node of the Crypto Ecosystem hierarchy), you need to create the proper definitions for the storage of data mines data.
 
 <!--------------------------------------------- CONTENT ends -->
 

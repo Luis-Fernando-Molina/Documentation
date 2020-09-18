@@ -51,9 +51,17 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Superalgos aims to provide a flexible and robust strategy-deployment toolbox.
+Superalgos aims to provide a flexible and robust trading bots deployment toolbox.
 
-If you work with multiple markets, multiple exchanges, or multiple trading systems, it is recommended to organize your forward testing and live trading sessions below the production environment node.
+With Superalgos, you may deploy as many trading bots as you wish and have them running on a single computer or in as many machines as you wish, in a [trading farm](suite-fundamental-trading-farms-concepts.html) type of setup. To help with the management of large numbers of live trading sessions, the system helps you with [sorting tasks](suite-sorting-of-tasks.html) by exchange, market, and trading mine.
+
+The production environment works pretty much in the same way as the testing environment, save for two important differences:
+
+* The production environment runs forward testing and live trading sessions, instead of backtesting and paper trading sessions.
+
+* These two types of sessions involve monetary transactions at the exchange, thus require the set up of a key reference to authenticate your account with the exchange.
+
+{% include note.html content="If you are familiar with the testing environment, there isn't much more to learn to understand the production environment. If you are not familiar with either, please refer to the [tesing environment](suite-testing-evironment.html) page for the details." %}
 
 {% include node-deletion-warning.html %}
 

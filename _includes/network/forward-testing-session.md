@@ -74,7 +74,7 @@ To add a forward testing session, select *Add Forward Testing Session* on the tr
 
 {% include note.html content="After adding a session node, make sure you establish a reference to the trading system you want it to work with." %}
 
-<!-- ADDING ends -->
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -82,7 +82,7 @@ To add a forward testing session, select *Add Forward Testing Session* on the tr
 
 {{include.configuring}} Configuring the {{title}}
 
-<!-- CONFIGURING starts -->
+<!--------------------------------------------- CONFIGURING starts -->
 
 Select *Configure Session* on the menu to access the configuration.
 
@@ -105,7 +105,7 @@ If you set up your forward-testing session with "balancePercentage": "1", then U
 
 {% include important.html content="You need to take this into account at the time of defining your positionSize formula. If the formula is a constant, you may easily run out of balance, as only a fraction of the balance will be available for the strategy to use. It may be a good idea to set up your positionSize as a function of your available balance instead." %}
 
-<!-- CONFIGURING ends -->
+<!--------------------------------------------- CONFIGURING ends -->
 
 {% endif %}
 
@@ -113,7 +113,7 @@ If you set up your forward-testing session with "balancePercentage": "1", then U
 
 {{include.starting}} Starting {{preposition}} {{title}}
 
-<!-- STARTING starts -->
+<!--------------------------------------------- STARTING starts -->
 
 Before you start a forward testing session, the corresponding task needs to be running, as it is the task that puts the trading bot instance to run. Once the trading bot instance is running, select *Run* on the menu to start the session.
 

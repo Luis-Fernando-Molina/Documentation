@@ -84,7 +84,7 @@ To add a trigger stage node, select *Add Missing Stages* on the strategy node me
 
 {% include note.html content="Only one trigger stage may exist in each strategy." %}
 
-<!-- ADDING ends -->
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -92,7 +92,7 @@ To add a trigger stage node, select *Add Missing Stages* on the strategy node me
 
 {{include.configuring}} Configuring the {{title}}
 
-<!-- CONFIGURING starts -->
+<!--------------------------------------------- CONFIGURING starts -->
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 

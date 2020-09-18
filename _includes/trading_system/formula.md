@@ -131,7 +131,7 @@ orderRate()
 
 To add a formula, select *Add Formula* on the corresponding parent node menu.
 
-<!-- ADDING ends -->
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 

@@ -117,7 +117,7 @@ In a backtesting session, the collection of candles evaluated is determined by t
 
 To add a parameter that may be missing, select *Add Missing Params* on the parameters node menu. 
 
-<!-- ADDING ends -->
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -125,7 +125,7 @@ To add a parameter that may be missing, select *Add Missing Params* on the param
 
 {{include.configuring}} Configuring the {{title}}
 
-<!-- CONFIGURING starts -->
+<!--------------------------------------------- CONFIGURING starts -->
 
 Select *Configure Time Frame* on the menu to access the configuration.
 

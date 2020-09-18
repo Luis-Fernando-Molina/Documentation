@@ -54,8 +54,6 @@ sensor_bot_instance: "A sensor bot instance is a reference to a sensor bot as de
 
 sensor_process_instance: "A sensor process instance is a reference to the process definition of a sensor bot, as defined in a data mine."
 
-market_reference: "A market reference is a reference to a specific market in a specific exchange, as defined in the Crypto Ecosystem hierarchy. The reference dictates which market the process works with."
-
 
 
 testing_environment: "The testing environment node organizes trading sessions involving testing of trading systems."

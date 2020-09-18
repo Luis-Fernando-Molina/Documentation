@@ -74,7 +74,7 @@ An event may have more than one situation attached to it. In such a case, when a
 
 To add a situation, select *Add Situation* on the corresponding event node menu. A situation is added along with a condition and JavaScript code node.
 
-<!-- ADDING ends -->
+<!--------------------------------------------- ADDING ends -->
 
 {% endif %}
 
@@ -82,7 +82,7 @@ To add a situation, select *Add Situation* on the corresponding event node menu.
 
 {{include.configuring}} Configuring the {{title}}
 
-<!-- CONFIGURING starts -->
+<!--------------------------------------------- CONFIGURING starts -->
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 

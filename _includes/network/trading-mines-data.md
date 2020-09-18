@@ -51,7 +51,11 @@
 
 <!--------------------------------------------- CONTENT starts -->
 
-Session-based data is organized by exchange, session, market, trading mine, and the particular trading bot products. This organization becomes apparent from the resulting structure of nodes under this node.
+As explained in the [sorting of tasks](suite-sorting-of-tasks.html) page, trading mines data is sorted by exchange, market, the corresponding trading session, and the corresponding trading mine, trading bot, and bot product. That is, most of the nodes in this section of the hierarchy play an organizational role.
+
+Many of them require references to the nodes that delimit the context for which the data is applicable. For example, the exchange trading products node must reference one of the installed exchanges, in particular, the exchange on which the trading operation is run. These references help other entities understand the context to which the data belongs to.
+
+Whenever you create trading tasks manually from within the Network hierarchy (as opposed to using the [install market](suite-how-to-install-a-new-market.html) function under the exchange markets node of the Crypto Ecosystem hierarchy), you need to create the proper definitions for the storage of trading mines data.
 
 <!--------------------------------------------- CONTENT ends -->
 
