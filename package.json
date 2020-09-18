@@ -1,0 +1,22 @@
+{
+  "name": "documentation",
+  "version": "1.0.0",
+  "description": "This repository holds the source code for the latest [documentation of the Superalgos Project](https://docs.superalgos.org). \r To run the site in your local machine, set up Jekyll and run it on the root folder of this respository.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luis-Fernando-Molina/Documentation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luis-Fernando-Molina/Documentation/issues"
+  },
+  "homepage": "https://github.com/Luis-Fernando-Molina/Documentation#readme",
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
